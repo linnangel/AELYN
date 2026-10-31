@@ -256,7 +256,7 @@ export const useStore = create<Store>()(
       closeCart: () => set({ isCartOpen: false }),
     }),
     {
-      name: "popmart-storage",
+      name: "AElYN-storage",
       partialize: (state) => ({
         user: state.user,
         isLoggedIn: state.isLoggedIn,
